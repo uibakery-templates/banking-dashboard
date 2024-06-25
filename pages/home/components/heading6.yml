@@ -1,0 +1,39 @@
+id: '16938248902270.29798560633413507'
+definitionId: heading
+parentSlotId: '16938248902250.8121462721785995'
+styles:
+  xl:
+    fontSize:
+      customValue: 26
+      customUnit: px
+    gridItem:
+      x: 0
+      y: 2
+      w: 20
+      h: 9
+    color:
+      value: basic
+      dataValue: '#101B41'
+      withData: true
+  xs:
+    fontSize:
+      customValue: 16
+      customUnit: px
+    gridItem:
+      x: 0
+      y: 995
+      w: 13
+      h: 10
+properties:
+  name: heading6
+  __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
+    - xl
+    - xs
+  text: Transactions & Expenses
+  data: ''
+  type: h3
+  verticalAlignment: middle
+  aiGenerated: true
+index: -9
+actions: {}
+slots: []

@@ -1,0 +1,67 @@
+id: '16938264148230.8032071357197399'
+definitionId: contextMenuButton
+parentSlotId: '16938263976100.5114617962829802'
+styles:
+  xl:
+    gridItem:
+      x: 23
+      y: 1
+      w: 1
+      h: 9
+    iconPlacement: center
+  xs:
+    gridItem:
+      x: 22
+      y: 50
+      w: 2
+      h: 10
+properties:
+  contextMenuItems:
+    value:
+      - id: account
+        title: Account
+        icon: person
+        __UIBAKERY__SYSTEM_ID__: '1'
+      - id: support
+        title: Support
+        icon: question-mark-circle
+        __UIBAKERY__SYSTEM_ID__: '2'
+      - id: log out
+        title: Log out
+        icon: log-out
+        __UIBAKERY__SYSTEM_ID__: '16938408307410.946374940190748'
+    dataValue: |-
+      [
+        {
+          id: 'item_1',
+          title: 'item 1',
+          icon: 'chevron-right-outline',
+        },
+        {
+          id: 'item_2',
+          title: 'Item 2',
+          icon: 'chevron-right-outline',
+        },
+      ]
+    withData: false
+  name: contextMenuButton
+  __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
+    - xl
+    - xs
+  icon:
+    value: person
+    dataValue: menu
+    withData: false
+  status:
+    value: primary
+    dataValue: '#283A7F'
+    withData: true
+  cssClasses:
+    - no-shadow
+  appearance:
+    value: filled
+    dataValue: filled
+    withData: false
+actions: {}
+index: 0
+slots: []

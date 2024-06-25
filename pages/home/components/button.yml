@@ -1,0 +1,34 @@
+id: '16938323632080.17811005742519148'
+definitionId: button
+parentSlotId: '16938248902250.8121462721785995'
+styles:
+  xl:
+    gridItem:
+      x: 20
+      y: 2
+      w: 4
+      h: 9
+    iconPlacement: left
+  xs:
+    gridItem:
+      x: 0
+      y: 1605
+      w: 24
+      h: 10
+properties:
+  name: button
+  __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
+    - xl
+    - xs
+  text: Reload
+  status:
+    value: basic
+    dataValue: primary
+    withData: false
+  icon:
+    value: refresh
+    dataValue: star-outline
+    withData: false
+actions: {}
+index: 2
+slots: []

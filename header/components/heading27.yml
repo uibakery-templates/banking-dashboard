@@ -1,0 +1,52 @@
+id: '17187131557800.19907503443136965'
+definitionId: heading
+parentSlotId: '16938263976100.5114617962829802'
+styles:
+  xl:
+    fontSize:
+      customValue: 26
+      customUnit: px
+    gridItem:
+      x: 1
+      y: 1
+      w: 13
+      h: 11
+    color:
+      value: basic
+      dataValue: '#fff'
+      withData: true
+    flex:
+      size:
+        widthValue: auto
+        heightValue: 36
+        heightUnit: px
+      grow: '0'
+      shrink: '0'
+  xs:
+    fontSize:
+      customValue: 16
+      customUnit: px
+    gridItem:
+      x: 0
+      y: 270
+      w: 24
+      h: 12
+    flex:
+      size:
+        widthValue: auto
+        heightValue: 36
+        heightUnit: px
+      grow: '0'
+      shrink: '0'
+properties:
+  name: heading27
+  __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
+    - xl
+    - xs
+  text: Welcome back, Mike!
+  data: ''
+  type: h3
+  verticalAlignment: middle
+  aiGenerated: true
+actions: {}
+slots: []

@@ -1,0 +1,54 @@
+id: '17187117682290.19038815244373986'
+definitionId: text
+styles:
+  xl:
+    gridItem:
+      x: 17
+      y: 1
+      w: 7
+      h: 15
+    flex:
+      size:
+        widthValue: auto
+        heightValue: 24
+        heightUnit: px
+      grow: '0'
+      shrink: '0'
+    fontSize:
+      customValue: 20
+      customUnit: px
+      themeDefaultOverridePropertyKey: baseTextFontSize
+    color:
+      value: success
+      dataValue: basic
+      withData: false
+  xs:
+    gridItem:
+      id: '17187117419460.7736584439399796'
+      x: 18
+      y: 16
+      w: 5
+      h: 8
+    flex:
+      size:
+        widthValue: auto
+        heightValue: 24
+        heightUnit: px
+      grow: '0'
+      shrink: '0'
+properties:
+  name: text16
+  __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
+    - xl
+    - xs
+  verticalAlignment: middle
+  textStyle:
+    transform: none
+    styles:
+      - bold
+  value: +$152.7
+  alignment: right
+parentSlotId: '17187117682290.28275906397142103'
+index: 0
+actions: {}
+slots: []

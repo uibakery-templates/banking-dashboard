@@ -1,0 +1,29 @@
+id: '16938252275830.8783182545931483'
+definitionId: tabs
+parentSlotId: '16938248902250.8121462721785995'
+styles:
+  xl:
+    gridItem:
+      x: 0
+      y: 14
+      w: 12
+      h: 160
+  xs:
+    gridItem:
+      x: 0
+      y: 1736
+      w: 11
+      h: 125
+properties:
+  name: tabs
+  __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
+    - xl
+    - xs
+actions: {}
+index: 5
+slots:
+  - id: '16938252275830.9703627171110534'
+    name: tabs
+    children:
+      - tab/tab.yml
+      - tab2/tab2.yml

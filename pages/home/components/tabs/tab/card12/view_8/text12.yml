@@ -1,0 +1,48 @@
+id: '17187117654420.4765107177367507'
+definitionId: text
+styles:
+  xl:
+    gridItem:
+      x: 0
+      y: 9
+      w: 18
+      h: 7
+    flex:
+      size:
+        widthValue: auto
+        heightValue: 24
+        heightUnit: px
+      grow: '0'
+      shrink: '0'
+    fontSize:
+      customValue: 12
+      customUnit: px
+      themeDefaultOverridePropertyKey: baseTextFontSize
+  xs:
+    gridItem:
+      x: 0
+      y: 6
+      w: 24
+      h: 10
+    flex:
+      size:
+        widthValue: auto
+        heightValue: 24
+        heightUnit: px
+      grow: '0'
+      shrink: '0'
+properties:
+  name: text12
+  __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
+    - xl
+    - xs
+  verticalAlignment: middle
+  textStyle:
+    transform: none
+    styles:
+      - italic
+  value: Nov 25, Checking
+parentSlotId: '17187117654420.10034204264887547'
+index: 0
+actions: {}
+slots: []

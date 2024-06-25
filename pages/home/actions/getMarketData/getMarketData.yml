@@ -1,0 +1,50 @@
+id: '16938254479150.08969042365417224'
+name: getMarketData
+nameConfigured: true
+steps:
+  - id: '16938254625760.7982033655733074'
+    type: customAsyncCode
+    name: wait
+    params:
+      - type: asyncCode
+        value: ./wait.js
+        valueType: interpolatedValue
+        interpolationType: code
+    level: 0
+    fallthroughError: false
+    isChanged: true
+    nameConfigured: true
+  - id: '16938254516130.9593606337703542'
+    type: customAsyncCode
+    name: getData
+    params:
+      - type: asyncCode
+        value: ./getData.js
+        valueType: interpolatedValue
+        interpolationType: code
+    level: 0
+    fallthroughError: false
+    isChanged: true
+    nameConfigured: true
+singleStep: false
+mode: manual
+modeConfigured: false
+parentPageId: '16938248902240.9266882546175548'
+config:
+  shouldConfirm: false
+  confirmMessage: Are you sure you'd like to proceed with "{{actions.getMarketData.name}}"?
+  showSuccessToast: false
+  successToast: Action "{{actions.getMarketData.name}}" successfully executed
+  successToastDuration: '3000'
+  successToastHideByClick: false
+  showErrorToast: true
+  errorToast: Action "{{actions.getMarketData.name}}" has failed
+  errorToastDuration: '3000'
+  errorToastHideByClick: false
+  delay: '0'
+  runWhenFirstReferenced: true
+  preserveStateOnPageChange: false
+assigned: false
+selected: true
+configured: true
+kind: workflow

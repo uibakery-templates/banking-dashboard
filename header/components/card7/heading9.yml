@@ -1,0 +1,32 @@
+id: '16938329533800.43113834555316743'
+definitionId: heading
+parentSlotId: '16938328881930.5352825849200615'
+styles:
+  xl:
+    gridItem:
+      x: 0
+      y: 9
+      w: 20
+      h: 10
+    fontSize:
+      customValue: 28
+      customUnit: px
+    color:
+      value: alternate
+      dataValue: basic
+      withData: false
+  xs:
+    gridItem:
+      x: 4
+      y: 0
+      w: 20
+      h: 10
+properties:
+  name: heading9
+  __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
+    - xl
+    - xs
+  text: $102,620
+actions: {}
+index: 2
+slots: []
